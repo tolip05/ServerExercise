@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="javache">
+    <output-path>$PROJECT_DIR$/out/artifacts/javache</output-path>
+    <root id="archive" name="javache.jar">
+      <element id="directory" name="org">
+        <element id="directory" name="softuni">
+          <element id="directory" name="javache">
+            <element id="directory" name="http">
+              <element id="dir-copy" path="$PROJECT_DIR$/target/classes/javache/http" />
+            </element>
+            <element id="directory" name="app">
+              <element id="dir-copy" path="$PROJECT_DIR$/target/classes/javache/api" />
+            </element>
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
